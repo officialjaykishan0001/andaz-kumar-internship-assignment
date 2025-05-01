@@ -1,0 +1,13 @@
+# POST http://localhost:5000/api/v1/add-doctor 
+# Content-Type: application/json
+
+# {
+#     "name": "Jay kishan",
+#     "specialization": "MD",
+#     "experience": "10",
+#     "gender": "male",
+#     "location": "Delhi",
+#     "rating": "4.8",
+#     "consultationFee": "15000"
+# }
+GET http://localhost:5000/api/v1/list-doctor-with-filter?gender=male
