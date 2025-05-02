@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Popover, TextField } from '@radix-ui/themes'
+import {  Button, Popover } from '@radix-ui/themes'
 import { LocationEdit, User } from 'lucide-react'
 const Navbar = () => {
     return (
