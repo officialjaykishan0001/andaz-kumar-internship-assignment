@@ -8,8 +8,11 @@ const doctorRoutes = require('./routes/doctor.route')
 const app = express();
 app.use(cors());
 app.use(express.json());
-
-// MongoDB connection
+const corsOptions = {
+  origin:  ['http://localhost:3000', 'https://andaz-kumar-internship-assignment-vlec.vercel.app/'],
+  credentials: true
+}
+app.use(cors(corsOptions));
 
 // Routes
 app.use('/api/v1', doctorRoutes);

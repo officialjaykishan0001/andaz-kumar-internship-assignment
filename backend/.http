@@ -17,7 +17,8 @@
 # }
 
 
-GET http://localhost:5000/api/v1/list-doctor-with-filter?gender=Female&location=Delhi&feeRange=100-500
+# GET http://localhost:5000/api/v1/list-doctor-with-filter?gender=Female&location=Delhi&feeRange=100-500
+GET https://andaz-kumar-internship-assignment.onrender.com/api/v1/list-doctor-with-filter
 
 ### Add Doctor with Image Upload
 ### Add doctor with multiple fields and image upload
